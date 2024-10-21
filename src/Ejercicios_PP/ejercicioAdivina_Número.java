@@ -1,11 +1,11 @@
 package Ejercicios_PP;
 import java.util.Random;
 import java.util.Scanner;
+import java.lang.*;
 public class ejercicioAdivina_Número {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Random azar = new Random();
-        int numeroAzar = azar.nextInt(51);
+        int numeroAzar = (int) ((Math.random())*(50)+1);
         int intentos = 6;
         boolean adivinar = false;
         System.out.println("¡Bienvenido al juego de adivinar el número!");
