@@ -1,6 +1,6 @@
 package Ejercicios_Boletin6;
 
-public class ejercicio6_5_2 {
+public class ejerciciobol6_5_2 {
 
     public static void main(String[] args) {
         int num2=9;
