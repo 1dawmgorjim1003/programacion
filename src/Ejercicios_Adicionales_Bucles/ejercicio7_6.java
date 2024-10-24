@@ -1,3 +1,4 @@
+package Ejercicios_Adicionales_Bucles;
 import java.util.Scanner;
 
 public class ejercicio7_6 {
